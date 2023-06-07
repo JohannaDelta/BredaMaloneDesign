@@ -1,0 +1,509 @@
+<!doctype html>
+
+<html lang="en">
+<head>		
+			<!-- Required meta tags -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	 		
+			<!-- linked to the css stylesheet --> 
+			<link href="style.css" rel="stylesheet" type="text/css">
+
+			<!-- linked to javascript file --> 
+			<script src="script.js" type="text/javascript"> </script>
+	
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+			<title> Shop </title>		
+	 
+</head>	
+	
+	 
+<body>
+
+
+	
+<!-- make website responsive -->
+<div class="websitewrap-fluid"> 
+		<div class= "row">
+			<div class= "col-xl-12 col-lg-7 col-md-12 col-sm-2 myClass"> 
+			</div>
+			
+			
+			
+					<!-- header wrap -->	
+		<div class = "headerwrap">
+
+					<div class = "logo"> 
+						<a href="index.html"> <img class="logo" src="photos/logo.jpg" alt="logo"> </a>
+					</div>
+	
+					
+					<!-- Menu - Navigation Bar, bootstrap -->	
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+  				<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+    					</button>
+						
+   					 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						 
+				
+    				 
+						 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       					 	<li class="nav-item">
+        					<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+       					 	</li>
+						  
+       						<li class="nav-item">
+         					<a class="nav-link" href="about.html">ABOUT</a>
+       					 	</li>
+							 
+						    <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  SHOP
+							</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								  <a class="dropdown-item" href="shop.html">ART </a>
+								  <a class="dropdown-item" href="#">DESIGN</a>
+								</div>
+						    </li>
+      
+						 	<li class="nav-item">
+          					<a class="nav-link" href="contact.html">CONTACT</a>
+        				 	</li>
+							 
+    				 	</ul>
+   					</div>
+  				</div>
+			</nav>
+	</div>
+	
+		
+		
+	
+<div class="line1"> </div>
+	
+
+<!-- body wrap -->
+<div class= "bodywrapshop col-xl-12 " > 
+	<center>
+		<h1> Welcome to our <br> Watercolour Art Shop</h1>
+		<p> sfsdkfl fdslijfsdl fsdifjods fsdo </p>
+	</center>
+
+	
+
+<div class="artgallery">
+
+		<div class="image1">
+			<img id="image1" src="photos/shop_art/01.jpg" alt="dog" title="dog" width="250px"> 
+			<p> "Kevin the Dog" </p>
+			<p id="artprice1"> €70</p>
+				
+			<div class="artquantity"> 
+			 <select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Your order</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					<p> Products have been added successfully to your shopping cart. </p>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	
+		<div class="image2">
+			<img id="image2" src="photos/shop_art/02.jpg" alt="fox" title="fox" width="250px"> 
+			<p> "Foxy"</p>
+			<p id="artprice2"> €90</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+			  	  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2">ADD TO CART </button>
+			
+			<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="Modal2" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="ModalLabel2">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	
+	
+		
+		<div class="image3">
+			<img id="image3" src="photos/shop_art/03.jpg" alt="bunny" title="bunny" width="250px"> 
+			<p> "Little bunny"</p>
+			<p id="artprice3"> €120</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+	
+		<div class="image4">
+			<img id="image4" src="photos/shop_art/04.jpg" alt="leaf" title="leaf" width="250px"> 
+			<p> "Winter leaf"</p>
+			<p id="artprice4"> €55</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>	
+		
+		<div class="image5">
+			<img id="image5" src="photos/shop_art/05.jpg" alt="hedgehog" title="hedgehog" width="250px"> 
+			<p> "Happy Hedgehog" </p>
+			<p id="artprice5"> €89</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<div class="image6">
+			<img id="image6" src="photos/shop_art/06.jpg" alt="snowdrop" title="snowdrop" width="250px"> 
+			<p> "White snowdrops"</p>
+			<p id="artprice6"> €70</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>	
+		
+		<div class="image7">
+			<img id="image7" src="photos/shop_art/07.jpg" alt="hare" title="hare" width="250px"> 
+			<p> "Wild Hare"</p>
+			<p id="artprice7"> €110</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<div class="image8">
+			<img id="image8" src="photos/shop_art/08.jpg" alt="flower" title="flower" width="250px"> 
+			<p> "Pink flowers"</p>
+			<p id="artprice8"> €97</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	
+		
+		<div class="image9">
+			<img id="image9" src="photos/shop_art/09.jpg" alt="frog" title="frog" width="250px"> 
+			<p> "The Frog Prince"</p>
+			<p id="artprice9"> €54</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>	
+		
+		<div class="image10">
+			<img id="image10" src="photos/shop_art/10.jpg" alt="fox2" title="fox2" width="250px"> 
+			<p> "Quiet fox"</p>
+			<p id="artprice10"> €109</p>
+			<div class="artquantity"> 
+				<select name="qty" form="list">
+				  <option value="0">0</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</div>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD TO CART </button>
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					...
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>	
+</div>
+
+	
+	
+</div>				
+		
+			
+			
+			
+			
+			
+<!-- footer wrap -->
+	
+	
+<div class="line2"> </div>
+	
+<div class= "footerwrap">
+ 
+	<div class="footer">
+		<center> 
+			<p class="foot-text"> Copyright &copy; 2021. <span> <b> Designed by Johanna Delta. </b> </span> All rights reserved.</p>
+		</center>
+	</div>
+</div>		
+
+
+
+	</div>
+</div>
+</body>
+</html>
